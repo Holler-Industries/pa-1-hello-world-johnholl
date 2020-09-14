@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "complete test",
-      "setup": "cd src; javac Hello.java; javac ",
+      "setup": "cd src; javac Hello.java ",
       "run": "java -cp ../jar_files/junit-platform-console-standalone-1.6.2.jar:./ TestHello.java",
       "input": "",
       "output": "",
